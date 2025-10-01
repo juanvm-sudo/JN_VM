@@ -6,11 +6,15 @@
 
 :root{
     /* CSS HEX */
---oxford-blue: #0b132bff;
---space-cadet: #1c2541ff;
---yinmn-blue: #3a506bff;
---verdigris: #5bc0beff;
---fluorescent-cyan: #6fffe9ff;
+--azul: #0b132bff;
+--azul-clarot: #1c2541ff;
+--azul-cinzento: #3a506bff;
+--verde-azulada: #5bc0beff;
 --titulo: "Alfa Slab One", serif;
 --texto: "Jockey One", sans-serif;
+}
+body{
+    background-color:var(--azul-cinzento) ;
+font-family: var(--titulo);
+
 }
