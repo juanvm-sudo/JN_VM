@@ -16,5 +16,32 @@
 body{
     background-color:var(--azul-cinzento) ;
 font-family: var(--titulo);
+margin: 0;
+padding: 0;
+display: flex;
+align-items: center;
+justify-self: unset;
 
+}
+main{ 
+    margin-top: 20px;
+max-width: 90%;
+text-align: center;
+
+}
+button{
+    font-family: var(--titulo);
+background-color: var(--azul);
+color: var(--azul-clarot);
+border: 2px solid var(--azul-clarot);
+padding: 20px 30px;
+margin: 10px 0;
+cursor: pointer;
+border-bottom: 10px;
+
+}
+button:hover{
+    background-color: var(--verde-azulada);
+    color: var(--azul-clarot);
+    transition: 0.5;
 }
